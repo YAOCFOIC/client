@@ -30,9 +30,14 @@ define('DB_NAME', 'nombre_bd');
 
 # 🚀 Ejecución
 Iniciar WAMPSERVER
-
 Acceder a:
 ##### http://localhost/cliente/public/
+##### 🔐 Configuración de phpMyAdmin
+##### Acceder a:
+###### Credenciales por defecto: 
+##### Usuario: root 
+##### Contraseña: (vacía) 
+##### Exportar base de datos: Seleccionar base de datos Pestaña Exportar > Formato SQL Seleccionar: ✅ Exportar estructura y datos ✅ Agregar DROP TABLE
 ##### INSERT INTO `usuarios` (`id`, `nombre`, `email`, `password`, `rol`, `creado_en`) VALUES (NULL, 'DATA', 'DATA@GMAIL.COM', '12345678*', 'admin', CURRENT_TIMESTAMP);
 ```bash
  📂 Estructura de carpetas
