@@ -34,6 +34,7 @@ Iniciar WAMPSERVER
 Acceder a:
 # http://localhost/cliente/public/
 ## INSERT INTO `usuarios` (`id`, `nombre`, `email`, `password`, `rol`, `creado_en`) VALUES (NULL, 'DATA', 'DATA@GMAIL.COM', '12345678*', 'admin', CURRENT_TIMESTAMP);
+'''
  📂 Estructura de carpetas
 cliente/
 ├── app-cliente/
@@ -67,7 +68,7 @@ cliente/
     │   └── images/
     ├── .htaccess # conexión y evitamos inyecciones XSS
     └── index.php # Cargar constantes y rutas, obtener rutas y redirecciones
-
+'''
  # Configuración importante
 .htaccess: Configuración para:
 
