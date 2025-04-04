@@ -1,5 +1,5 @@
 # Nombre del Proyecto :CLIENT
-configuracion de la ruta si no se crea la carpeta client > 
+configuracion de la ruta, si no se crea la carpeta client, debes crear la manual mente tiene que poner el archivo sobre el wamp/www/  > 
 *"Client : Todo lo que hagán, háganlo de corazón, como para el Señor y no para los hombres" - Colosenses 3:23*
 
 ## 1 Herramientas utilizadas
