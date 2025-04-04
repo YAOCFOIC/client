@@ -1,5 +1,5 @@
 # Nombre del Proyecto :CLIENT
-
+configuracion de la ruta si no se crea la carpeta client > 
 *"Client : Todo lo que hagán, háganlo de corazón, como para el Señor y no para los hombres" - Colosenses 3:23*
 
 ## 1 Herramientas utilizadas
@@ -21,8 +21,8 @@ git clone https://github.com/YAOCFOIC/client.git
 
 mysql -u root -p < ruta_del_archivo.sql
 
-### Configurar constantes:
-
+## Configurar constantes:
+Editar app-cliente/config/constants.php con tus credenciales:
 define('DB_HOST', 'localhost');
 define('DB_USER', 'tu_usuario');
 define('DB_PASS', 'tu_contraseña');
