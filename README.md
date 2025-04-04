@@ -32,9 +32,9 @@ define('DB_NAME', 'nombre_bd');
 Iniciar WAMPSERVER
 
 Acceder a:
-# http://localhost/cliente/public/
-## INSERT INTO `usuarios` (`id`, `nombre`, `email`, `password`, `rol`, `creado_en`) VALUES (NULL, 'DATA', 'DATA@GMAIL.COM', '12345678*', 'admin', CURRENT_TIMESTAMP);
-'''
+##### http://localhost/cliente/public/
+##### INSERT INTO `usuarios` (`id`, `nombre`, `email`, `password`, `rol`, `creado_en`) VALUES (NULL, 'DATA', 'DATA@GMAIL.COM', '12345678*', 'admin', CURRENT_TIMESTAMP);
+```bash
  📂 Estructura de carpetas
 cliente/
 ├── app-cliente/
