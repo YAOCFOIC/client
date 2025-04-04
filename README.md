@@ -10,12 +10,11 @@
 
 ## 2 🛠 Instalación
 
-### 3 Requisitos previos
 1. Instalar [WAMPSERVER](https://www.wampserver.com/)
 2. Asegurar versión PHP 8.0.26
 3. MySQL 8.0.31
 
-### 4 Configuración inicial
+### 3 Configuración inicial
 1. Clonar repositorio:
 ```bash
 git clone https://github.com/YAOCFOIC/client.git
