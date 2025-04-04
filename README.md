@@ -16,9 +16,9 @@ configuracion de la ruta si no se crea la carpeta client >
 
 ### 3 Configuración inicial
 1. Clonar repositorio:
-``bash
+```bash
 git clone https://github.com/YAOCFOIC/client.git
-
+```bash
 mysql -u root -p < ruta_del_archivo.sql
 
 ## Configurar constantes:
