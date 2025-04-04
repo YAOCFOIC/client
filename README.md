@@ -16,7 +16,7 @@ configuracion de la ruta si no se crea la carpeta client >
 
 ### 3 Configuración inicial
 1. Clonar repositorio:
-```bash
+``bash
 git clone https://github.com/YAOCFOIC/client.git
 
 mysql -u root -p < ruta_del_archivo.sql
@@ -28,7 +28,13 @@ define('DB_USER', 'tu_usuario');
 define('DB_PASS', 'tu_contraseña');
 define('DB_NAME', 'nombre_bd');
 
-📂 Estructura de carpetas
+# 🚀 Ejecución
+Iniciar WAMPSERVER
+
+Acceder a:
+# http://localhost/cliente/public/
+## INSERT INTO `usuarios` (`id`, `nombre`, `email`, `password`, `rol`, `creado_en`) VALUES (NULL, 'DATA', 'DATA@GMAIL.COM', '12345678*', 'admin', CURRENT_TIMESTAMP);
+# 📂 Estructura de carpetas
 cliente/
 ├── app-cliente/
 │   ├── controllers/ #tenemos los controladores donde gestionamos la lógica comunicación, de base de datos a nuestras “plantillas”
@@ -62,7 +68,7 @@ cliente/
     ├── .htaccess # conexión y evitamos inyecciones XSS
     └── index.php # Cargar constantes y rutas, obtener rutas y redirecciones
 
- Configuración importante
+ # Configuración importante
 .htaccess: Configuración para:
 
 Prevenir inyecciones XSS
@@ -77,7 +83,7 @@ Colocar archivos CSS/JS en public/assets/
 
 Actualizar referencias en las vistas
 
-⚙️ Configuración de rutas
+# ⚙️ Configuración de rutas
 Editar config/routes.php para gestionar:
 
 Autenticación
@@ -88,8 +94,3 @@ Flujo de productos
 
 Procesos de eventos
 
-🚀 Ejecución
-Iniciar WAMPSERVER
-
-Acceder a:
-http://localhost/cliente/public/
