@@ -68,7 +68,7 @@ cliente/
     │   └── images/
     ├── .htaccess # conexión y evitamos inyecciones XSS
     └── index.php # Cargar constantes y rutas, obtener rutas y redirecciones
-'''
+```
  # Configuración importante
 .htaccess: Configuración para:
 
