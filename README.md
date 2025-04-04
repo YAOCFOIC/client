@@ -34,7 +34,7 @@ Iniciar WAMPSERVER
 Acceder a:
 # http://localhost/cliente/public/
 ## INSERT INTO `usuarios` (`id`, `nombre`, `email`, `password`, `rol`, `creado_en`) VALUES (NULL, 'DATA', 'DATA@GMAIL.COM', '12345678*', 'admin', CURRENT_TIMESTAMP);
-# 📂 Estructura de carpetas
+ 📂 Estructura de carpetas
 cliente/
 ├── app-cliente/
 │   ├── controllers/ #tenemos los controladores donde gestionamos la lógica comunicación, de base de datos a nuestras “plantillas”
